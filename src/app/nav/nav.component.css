@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Site name styling */
+.site-name h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/* Site menu links */
+.site-menu{
+    margin-left: 70px;
+}
+.site-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for links */
+.site-menu a:hover {
+    background-color: #ff6347;
+    transform: scale(1.1);
+}
